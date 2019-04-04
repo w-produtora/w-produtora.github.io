@@ -5,13 +5,18 @@ type: index
 ---
 
 <div class="principal">
+  {% for post in site.posts %}
+  {% if post.tipo == 'home' %}
   <div class="principal-explicacao">
-    <h2>Páragrafo curto explicando o título fazendo a pessoa clicar.</h2>
+    <p class="artigos-tag">{{ post.tag }}</p>
+    {{ post.meta | markdownify }}
   </div>
 
-  <div class="principal-img">
-    <h1>Porque não uma produtora?</h1>
+  <div class="principal-img" style="background: url({{ post.img }});">
+    
   </div>
+  {% endif %}
+  {% endfor %}
 </div>
 
 
@@ -20,10 +25,14 @@ type: index
     {% for post in site.posts %}
     
       <div class="artigos-texto_item">
-        <img src="{{ site.url }}/{{ post.img }}" alt="">
-        <h4>{{ post.title }}</h4>
-        <p><em>{{ post.tag }}</em></p>
-        <p>{{ post.meta | }}</p>
+        
+        <div class="artigos-texto_info">
+          <h4>{{ post.title }}</h4>
+          <p class="artigos-tag">{{ post.tag }}</p>
+        </div>
+        
+        <img src="{{ site.url }}{{ post.img }}" alt="">
+
         <p><a class="button" href="{{ post.url }}"><em>Ler mais</em></a></p>
       </div>
     
