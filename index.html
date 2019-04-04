@@ -8,7 +8,6 @@ type: index
   {% for post in site.posts %}
   {% if post.tipo == 'home' %}
   <div class="principal-explicacao">
-    <p class="artigos-tag">{{ post.tag }}</p>
     {{ post.meta | markdownify }}
   </div>
 
@@ -27,20 +26,24 @@ type: index
       <div class="artigos-texto_item">
         
         <div class="artigos-texto_info">
-          <h4>{{ post.title }}</h4>
           <p class="artigos-tag">{{ post.tag }}</p>
+          <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+          <p>{{ post.meta }}</p>
         </div>
         
         <img src="{{ site.url }}{{ post.img }}" alt="">
 
-        <p><a class="button" href="{{ post.url }}"><em>Ler mais</em></a></p>
       </div>
     
     {% endfor %}
   </div>
 
   <div class="artigos-chamada">
-    <h2>Texto explicando esse artigos.</h2>
-    <p>Talvez valia a pena escrever um pouco mais aqui. Talvez não. Fica a seu critério.</p>
+    <h3>O que a gente pensa.</h3>
+    
+    <p>Como a gente trabalha.</p>
+    
+    <p>Os casais lindos que nos permitiram tecer parte da história deles ao mesmo tempo que foram tecendo a nossa.</p>
+
   </div>
 </div>

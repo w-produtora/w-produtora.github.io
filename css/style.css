@@ -168,7 +168,6 @@ header {
   align-items: baseline;
   justify-content: center;
   margin: 0 2%;
-  margin-bottom: 2rem;
 
 }
 
@@ -210,7 +209,6 @@ nav a:hover {
 
 .content{ 
   justify-content: center;
-  z-index: -10;
 }
 
 /* INDEX */
@@ -222,9 +220,9 @@ nav a:hover {
 }
 
 .principal {
-  border-bottom: 3px solid var(--cinza-claro);
-  padding: 2em 0;
-  margin-bottom: 2em
+  border-bottom: 2px solid var(--cinza-claro);
+  padding: 3em 0;
+  margin-bottom: 3em
 }
 
 .principal-explicacao {
@@ -240,11 +238,11 @@ nav a:hover {
 
 .principal-explicacao {
   font-family: 'Archivo Narrow', sans;
-  text-align: center;
   font-size: 1em;
 }
 
 .principal-explicacao > h2 {
+  color: var(--azul);
   margin-bottom: 1em;
 }
 
@@ -257,18 +255,22 @@ nav a:hover {
 
 .artigos-texto_item {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); 
+  grid-template-columns: repeat(2, auto); 
+  font-size: .9em;
 }
 
 .artigos-texto_item > img {
-  width: 10em;
-  margin: 2em;
+  width: 7em;
+  margin: 1em;
   z-index: -10;
+}
+
+.artigos-texto_info a:hover {
+  border-bottom: solid 1px var(--cinza-escuro);
 }
 
 .artigos-chamada {
   grid-column: 3/4;
-  border-left: solid 1px var(--cinza-claro);
   padding-left: 1em;
 }
 
@@ -398,21 +400,6 @@ footer h3 {
   justify-content: center;
 }
 
-/* ANIMATIONS */
-
-.--fade { animation: fade 2s; }
-
-.hidden { opacity: 0; }
-
-@keyframes slide {
-  100% { left: 0%; }
-}
-
-@keyframes fade {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
-
 .a-slideOut {
   opacity: 1;
   transition: all 3s ease;
@@ -420,33 +407,4 @@ footer h3 {
 
 html.is-animating .a-slideOut {
   opacity: 0;
-}
-
-.modal-content { display: none; }
-
-/* Forms */
-
-.formulario {
-  position: relative;
-  padding-top: 1.5em;
-}
-
-label {
-  font-size: .8rem;
-}
-
-
-input[type=text], input[type=email] {
-  border-bottom: 2px solid var(--laranja);
-  border-left: none;
-  border-top: none;
-  border-right: none;
-  font-size: 1rem;
-  padding: .4rem;
-  width: 100%;
-  transition: all .5s easeOut;
-}
-
-input[type=text]:focus, input[type=email]:focus {
-  border-bottom: 2px solid var(--azulMedio);
 }
