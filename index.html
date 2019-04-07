@@ -8,6 +8,7 @@ type: index
   {% for post in site.posts %}
   {% if post.tipo == 'home' %}
   <div class="principal-explicacao">
+    <h2><a href="{{ post.url }}">{{ post. title }}</a></h2>
     {{ post.meta | markdownify }}
   </div>
 
@@ -21,7 +22,7 @@ type: index
 
 <div class="artigos">
   <div class="artigos-texto">
-    {% for post in site.posts %}
+    {% for post in site.posts limit:4 %}
     
       <div class="artigos-texto_item">
         

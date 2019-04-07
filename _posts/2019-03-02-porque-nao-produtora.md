@@ -1,14 +1,14 @@
 ---
 title: Porque não uma produtora
 img: /img/porque-produtora.jpg
+img-post: /img/porque-produtora-post.jpg
 layout: posts
 tipo: home
-tag: Produção
+tags: Artigos
+category: [artigos]
 permalink: /porque-nao-produtora/
 cta: Quer entender exatamente como funciona o nosso atendimento?
 meta: |
-  ## Por que não uma produtora?
-
   E, afinal, quanto custa a produção de um casamento?
 
   Eu acho que essa pergunta tá errada. A pergunta certa deveria ser: Quanto custa não ter uma produtora no seu casamento?

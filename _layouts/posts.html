@@ -2,14 +2,32 @@
 layout: default
 ---
 
-   <div class="copy-title --shadow" style="background-image: url({{ site.url }}/{{ page.img }});">
-     <h1 class="--shadow">{{ page.title }}</h1>
+	<div class="copy-category">
+		{{ page.tag }}
+	</div>
+
+   <div class="copy-hero" style="background-image: url({{ site.url }}/{{ page.img }});">
+     
+	<div class="copy-hero_esq"></div>
+	<div class="copy-hero_gapesq"></div>
+    
+    <div class="copy-hero_content">
+  
+      <div class="copy-hero_title">
+      	<h1>{{ page.title }}</h1>
+      </div>
+      <div class="copy-hero_meta">
+  		<blockquote>{{ page.meta | markdownify }}</blockquote>
+  	  </div>
+    </div> 
+
+	<div class="copy-hero_gapdir"></div>
+	<div class="copy-hero_dir"></div>
+
    </div>
 
 
-  <div class="copy-meta">
-  	<blockquote>{{ page.meta | markdownify }}</blockquote>
-  </div>
+  
 
   <div class="copy-content">{{ content }}</div>
   <a class="button" href="">{{ page.cta }}</a>
