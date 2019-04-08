@@ -2,7 +2,8 @@
 title: Michelle & Vinícius
 img: /img/michelle-vinicius.jpg
 layout: posts
-category: [Portfólio]
+tag: Portfólio
+category: [portfolio, artigos]
 permalink: /michelle-vinicius/
 cta: Quer entender exatamente como funciona nosso atendimento? Faz uma pergunta pra gente!
 meta: |

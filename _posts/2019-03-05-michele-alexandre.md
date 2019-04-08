@@ -3,7 +3,7 @@ title: Michelle & Alexandre
 img: /img/michelle-alexandre.jpg
 layout: posts
 tag: Portfólio
-category: [portfolio]
+category: [portfolio, artigos]
 permalink: /michelle-alexandre/
 cta: Quer entender exatamente como funciona nosso atendimento? Faz uma pergunta pra gente!
 meta: |

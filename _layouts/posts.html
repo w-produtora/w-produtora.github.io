@@ -12,7 +12,7 @@ layout: default
 	<div class="copy-hero_gapesq"></div>
     
     <div class="copy-hero_content">
-  
+  	  <p class="artigos-tag">{{ page.tag }}</p>
       <div class="copy-hero_title">
       	<h1>{{ page.title }}</h1>
       </div>
@@ -29,5 +29,9 @@ layout: default
 
   
 
-  <div class="copy-content">{{ content }}</div>
-  <a class="button" href="">{{ page.cta }}</a>
+  <div class="copy-content">
+  	{{ content }}
+    <p class="center">
+    	<a class="button" href="">{{ page.cta }}</a>
+    </p>
+  </div>

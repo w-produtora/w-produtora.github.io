@@ -10,7 +10,8 @@ permalink: /artigos/
 
 {% for post in site.categories.artigos %}
 
-  <div class="copy-hero" style="background-image: url({{ site.url }}/{{ post.img }});">
+  <div>
+    <div class="copy-hero" style="background-image: url({{ site.url }}/{{ post.img }});">
      
 	<div class="copy-hero_esq"></div>
 	<div class="copy-hero_gapesq"></div>
@@ -19,13 +20,12 @@ permalink: /artigos/
        <div class="copy-hero_title">
       	 <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
        </div>
-       <div class="copy-hero_meta">
-  		 <blockquote>{{ post.meta | markdownify }}</blockquote>
-  	   </div>
+       
      </div> 
 
      <div class="copy-hero_gapdir"></div>
 	 <div class="copy-hero_dir"></div>
+   </div>
    </div>
 
 {% endfor %}

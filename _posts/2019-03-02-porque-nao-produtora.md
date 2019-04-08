@@ -1,10 +1,10 @@
 ---
-title: Porque não uma produtora
+title: Por que não uma produtora?
 img: /img/porque-produtora.jpg
 img-post: /img/porque-produtora-post.jpg
 layout: posts
 tipo: home
-tags: Artigos
+tag: Artigos
 category: [artigos]
 permalink: /porque-nao-produtora/
 cta: Quer entender exatamente como funciona o nosso atendimento?
