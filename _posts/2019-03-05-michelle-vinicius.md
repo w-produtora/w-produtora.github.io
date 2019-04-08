@@ -1,6 +1,6 @@
 ---
 title: Michelle & Vinícius
-img: /img/michelle-vinícius.jpg
+img: /img/michelle-vinicius.jpg
 layout: posts
 category: [Portfólio]
 permalink: /michelle-vinicius/
