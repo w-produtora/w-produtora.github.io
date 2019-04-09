@@ -2,7 +2,7 @@
 title: Maysse & Diogo
 img: /img/maysse-diogo.jpg
 layout: posts
-tag: Portfólio
+tag: Portfolio
 category: [portfolio, artigos]
 permalink: /maysse-diogo/
 cta: Quer entender exatamente como funciona nosso atendimento? Faz uma pergunta pra gente!
