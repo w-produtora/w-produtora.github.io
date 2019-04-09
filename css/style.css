@@ -130,7 +130,7 @@ header {
   border-bottom: var(--bd-azul);
   display: grid;
   align-items: baseline;
-  justify-content: initial;
+  justify-content: center;
   margin: 0 2%;
 
 }
@@ -408,6 +408,7 @@ footer {
   border-top: solid 10px;
   width: 95%;
   margin: 3em auto;
+  height: 10em;
 }
 
 footer h3 {
