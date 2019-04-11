@@ -310,24 +310,30 @@ header {
   margin: 3em;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1rem;
+  grid-gap: 3rem;
 }
 
 
 .copy-content > .esq-img {
   grid-column: 1/2;
+  margin-top: 1rem;
 }
 
 .copy-content > .esq-p {
   grid-column: 1/3;
+  margin-top: 1rem;
+  margin-left: 6rem;
 }
 
 .copy-content > .dir-img {
   grid-column: 3/4;
+  margin-top: 1rem;
 }
 
 .copy-content > .dir-p {
   grid-column: 2/-1;
+  margin-top: 1rem;
+  margin-right: 6rem;
 }
 
 .is-fixed {
