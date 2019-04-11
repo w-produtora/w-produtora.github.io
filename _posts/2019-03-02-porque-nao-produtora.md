@@ -4,14 +4,18 @@ img: /img/porque-produtora.jpg
 img-post: /img/porque-produtora-post.jpg
 layout: posts
 tipo: home
-tag: Artigos
+tag: É assim que a banda toca
 category: [artigos]
 permalink: /porque-nao-produtora/
 cta: Quer entender exatamente como funciona o nosso atendimento?
 meta: |
+  Por que não uma produtora?
+
   E, afinal, quanto custa a produção de um casamento?
 
-  Eu acho que essa pergunta tá errada. A pergunta certa deveria ser: Quanto custa não ter uma produtora no seu casamento?
+  Essa é a pergunta mais comum, mas eu acho que essa pergunta está errada. A pergunta certa deveria ser: Quanto custa não ter uma produtora no seu casamento?
+
+  Porque é aqui que realmente faz diferença. E essa é a pergunta que realmente vale a pena responder.
 ---
 
 <div class="esq-img">
