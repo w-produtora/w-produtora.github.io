@@ -1,6 +1,6 @@
 :root {
   --azul: rgb(0, 39, 65);
-  --cinza-claro: rgb(167,169, 172);
+  --cinza-claro: rgba(167,169, 172, .4);
   --cinza-escuro: rgb(88, 89, 91);
   --abril: 'Abril Fatface', cursive;
   --bd-azul: solid 1px var(--azul);
@@ -56,9 +56,11 @@ hr {
 }
 
 .center {
-  margin-top: 3em;
+  margin-top: 10rem;
   text-align: center;
   grid-column: 1/-1;
+  margin-bottom: 7rem;
+  font-size: 1.3rem;
 }
 
 
@@ -67,12 +69,6 @@ hr {
 *:hover{ 
   text-decoration: none;
   transition: all 0.5s;
-}
-
-blockquote > p {
-  font-style: italic;
-  font-size: 1.2rem;
-  color: var(--laranja);
 }
 
 ul {
@@ -216,6 +212,10 @@ header {
   z-index: -10;
 }
 
+.artigos-texto_info > h4{
+  letter-spacing: 2px;
+}
+
 .artigos-chamada {
   font-family: var(--abril);
   grid-column: 3/4;
@@ -227,6 +227,7 @@ header {
   color: var(--cinza-claro);
   margin-bottom: 0;
   margin-top: 1rem;
+  font-size: 1rem;
 }
 
 /* POSTS */
@@ -250,7 +251,7 @@ header {
   background-position: center;
   margin-top: 2em;
   text-align: center;
-  height: 100%;
+  height: 900px;
   display: grid;
   grid-template-columns: 1fr 1em 1fr 1em 1fr;
 }
@@ -267,14 +268,15 @@ header {
 .copy-hero_content{
   grid-column: 3/4;
   background-color: white;
-  margin-top: 100%;
-
+  margin-top: 800px;
+  display: flex;
+  align-items: end;
 }
 
 .copy-hero_title h1 {
   text-align: center;
   font-size: 1.5rem;
-  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
 
@@ -295,12 +297,21 @@ header {
   text-align: center;
   margin: 0 1em 0;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 1em;
 }
 
 .copy-hero_meta > blockquote {
-  grid-column: 2/3;
+  grid-column: 2/4;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+blockquote > p {
+  font-style: italic;
+  font-size: 1.2rem;
+  color: var(--laranja);
+  margin-bottom: .3rem;
 }
 
 .copy-hero_gapdir {
@@ -313,32 +324,8 @@ header {
 }
 
 .copy-content {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 3rem;
   max-width: 63rem;
   margin: 0 auto;
-}
-
-
-.copy-content > .esq-img {
-  grid-column: 1/2;
-  margin-top: 3rem;
-}
-
-.copy-content > .esq-p {
-  grid-column: 1/3;
-  margin: 3rem;
-}
-
-.copy-content > .dir-img {
-  grid-column: 3/4;
-  margin-top: 3rem;
-}
-
-.copy-content > .dir-p {
-  grid-column: 2/-1;
-  margin: 3rem;
 }
 
 .is-fixed {
@@ -387,6 +374,30 @@ header {
   opacity: .6;
 }
 
+/* Accordion */
+
+.accordion-item a {
+  text-decoration: none;
+}
+
+.accordion-item h2 {
+  background-color: var(--cinza-claro);
+  padding: 1rem;
+  border-radius: 3px;
+}
+
+
+.accordion-show {
+  display: none;
+}
+
+.accordion-show:target {
+  display: block;
+  padding: 1rem;
+  background-color: rgba(167,169, 172, .2);
+  border-radius: 3px;
+}
+
 /* NAV */
 
 nav {
@@ -415,6 +426,66 @@ nav a:hover {
   background: var(--azul);
 }
 
+@-webkit-keyframes example {
+  from {top:-100px;opacity: 0;}
+  to {top:0px;opacity:1;}
+}
+
+/* Add animation (Standard syntax) */
+@keyframes example {
+  from {top:-100px;opacity: 0;}
+  to {top:0px;opacity:1;}
+}
+
+.pesquisa {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.pesquisa:target {
+  display: flex;
+}
+
+.pesquisa-content{
+  margin: auto;
+  background-color: white;
+  padding: 3rem;  
+  width: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-animation-name: example; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 0.5s; /* Chrome, Safari, Opera */
+  animation-name: example;
+  animation-duration: 0.5s;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label, input {
+  margin-bottom: 1rem;
+}
+
+input#search-box {
+  border-bottom: var(--bd-azul);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-size: 1rem;
+  padding: .3rem;
+  font-family: "Archivo Narrow", sans;
+  font-style: italic;
+  color: var(--cinza-claro);
+}
+
 /* FOOTER */
 
 footer { 
@@ -422,17 +493,17 @@ footer {
   flex-direction: column;
   background: var(--branco); 
   color: var(--azul);
-  margin: 1rem 0rem 3rem 0rem;
   text-align: center;
   border-top: solid 10px;
   width: 95%;
-  margin: 3em auto;
+  margin: 6rem auto;
   height: 10em;
 }
 
 footer h3 {
   font-family: 'Archivo Narrow', sans;
   font-weight: bold;
+  margin-top: 4rem;
 }
 
 
