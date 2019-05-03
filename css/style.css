@@ -154,7 +154,7 @@ header {
 }
 
 .principal {
-  border-bottom: 2px solid var(--cinza-claro);
+  border-bottom: var(--bd-cinza);
   padding: 3em 0;
   margin-bottom: 3em
 }
@@ -203,7 +203,7 @@ header {
   display: grid;
   grid-template-columns: repeat(2, auto); 
   font-size: .9em;
-  border-bottom: var(--bd-cinza-claro);
+  border-bottom: var(--bd-cinza);
 }
 
 .artigos-texto_item > img {
@@ -213,7 +213,7 @@ header {
 }
 
 .artigos-texto_info > h4{
-  letter-spacing: 2px;
+  font-size: 1.2rem;
 }
 
 .artigos-chamada {
@@ -412,6 +412,12 @@ blockquote > p {
 
 /* Accordion */
 
+.accordion {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+}
+
 .accordion-item a {
   text-decoration: none;
 }
@@ -423,16 +429,19 @@ blockquote > p {
 }
 
 .accordion-show {
-  display: none;
+  opacity: 0;
   position: fixed;
+  top: 0;
+  left: 0;
   padding: 1rem;
   background-color: rgba(167,169, 172, .2);
   border-radius: 3px;
+  transition: all 1s;
 }
 
 .accordion-show:target {
-  display: block;
-  position: relative;
+  opacity: 1;
+  position: absolute;
 }
 
 /* NAV */
@@ -502,6 +511,23 @@ nav a:hover {
   animation-duration: 0.5s;
 }
 
+.pesquisa-close {
+  text-align: right;
+}
+
+.pesquisa-close a {
+  color: var(--cinza);
+  text-decoration: none;
+}
+
+.pesquisa-close a:hover {
+  border-bottom: var(--bd-cinza);
+}
+
+.pesquisa-close_x {
+  font-size: 1.4rem;
+}
+
 form {
   display: flex;
   flex-direction: column;
@@ -541,6 +567,10 @@ footer h3 {
   font-family: 'Archivo Narrow', sans;
   font-weight: bold;
   margin-top: 4rem;
+}
+
+.footer-social {
+  padding-bottom: 4rem;
 }
 
 
