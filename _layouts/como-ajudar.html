@@ -26,13 +26,3 @@ layout: default
     	<a class="button" href="">{{ page.cta }}</a>
     </p>
   </div>
-
-  <script>
-    $("a[href^=#]").on("click", function(e) {
-      e.preventDefault();
-      history.pushState({}, "", this.href);
-    });
-  </script>
-
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        
