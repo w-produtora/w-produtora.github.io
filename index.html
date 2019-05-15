@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  Levando famílias à harmonia.
+title:  Casamento é sagrado
 type: index
 ---
 
@@ -21,23 +21,6 @@ type: index
 
 
 <div class="artigos">
-  <div class="artigos-texto">
-    {% for post in site.posts limit:4 %}
-    
-      <div class="artigos-texto_item">
-        
-        <div class="artigos-texto_info">
-          <p class="artigos-tag">{{ post.tag }}</p>
-          <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
-          <p>{{ post.meta }}</p>
-        </div>
-        
-        <img src="{{ site.url }}{{ post.img }}" alt="">
-
-      </div>
-    
-    {% endfor %}
-  </div>
 
   <div class="artigos-chamada">
     <p>O que a gente pensa.</p>
@@ -47,4 +30,26 @@ type: index
     <p>Os casais lindos que nos permitiram tecer parte da história deles ao mesmo tempo que foram tecendo a nossa.</p>
 
   </div>
+
+  <div class="artigos-texto">
+    {% for post in site.posts limit:4 %}
+    
+      <div class="artigos-texto_item">
+        
+        <img src="{{ site.url }}{{ post.img }}" alt="">
+
+        <div class="artigos-texto_info">
+          <p class="artigos-tag">{{ post.tag }}</p>
+          <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+          <p>{{ post.meta }}</p>
+        </div>
+        
+        
+
+      </div>
+    
+    {% endfor %}
+  </div>
+
+  
 </div>
