@@ -7,7 +7,7 @@ category: [portfolio, artigos]
 permalink: /michelle-vinicius/
 cta: Quer entender exatamente como funciona nosso atendimento? Faz uma pergunta pra gente!
 meta: |
-  Resumo do casamento
+  Um casal de uma energia tão gostosa, com uma história tão bonita, que foi bom e leve participar desse momento deles...
 ---
 
 Um casamento lindo à beira da praia. Não foi só lindo pelo lugar ou pela beleza da noiva, que é linda, óbvio. Foi lindo porque o casal era de uma energia tão gostosa, com uma história tão bonita que foi bom e leve participar desse momento deles.

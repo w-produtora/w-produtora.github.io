@@ -494,19 +494,22 @@ nav {
   position: fixed;
   bottom: 0;
   right: 0;
-  width: 100%;
-  display: flex;
-  justify-content: center; 
+  width: 100%; 
   margin-top: 2em;
 }
 
-nav a { 
+.nav-items {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-items a { 
   color: var(--azul); 
   text-decoration: none;
   padding: 1rem;
 }
 
-nav a:hover {
+.nav-items a:hover {
   color: #fff;
   background: var(--azul);
 }
@@ -642,6 +645,47 @@ html.is-animating .a-slideOut {
   .principal, .artigos {
     display: block;
   }
+
+  @media only screen and (max-width : 760px) {
+
+        nav {
+            width: 100%;
+            text-align: center;
+            margin: 0 auto;
+        }
+        
+        /*Transition effect*/
+
+        nav .nav-items {
+            right: 0px;
+            height: auto;
+            position: relative;
+            top: 10px;
+            transition: top 0.5s ease-in-out; 
+        }
+
+        nav input#toggle {
+            display: none;
+        }
+
+        nav input#toggle + label {
+            display: block;
+            width: 100%;
+            height: 87px;
+            background:url(menu.png) center right no-repeat  #fff;
+            position: absolute;
+            right: 0;
+            top: auto;
+            cursor: pointer;
+            border-bottom: 1px solid #000;
+            z-index: 10;
+        }
+
+        input#toggle:checked ~ .nav-items {
+            bottom: -400px;
+        }
+}
+
 }
 
 @media (max-width: 930px) {
