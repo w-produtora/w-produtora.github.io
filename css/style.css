@@ -100,14 +100,15 @@ li {
   border-radius: 3px;
   margin-top: 2em;
   box-shadow: 2px 2px 2px rgba(0,0,0,.3);
+  font-family: 'Archivo Narrow', sans;
 }
 
-a.button {
+a.button, button.button a {
   color: var(--azul);
   text-decoration: none;
 }
 
-a.button:hover, .button:hover {
+a.button:hover, button.button > a:hover, .button:hover, button.button:hover {
   box-shadow: 0;
   color: white;
   background: var(--azul);
@@ -648,13 +649,13 @@ html.is-animating .a-slideOut {
 
   @media only screen and (max-width : 760px) {
 
-        nav {
+        /* nav {
             width: 100%;
             text-align: center;
             margin: 0 auto;
         }
         
-        /*Transition effect*/
+        /*Transition effect
 
         nav .nav-items {
             right: 0px;
@@ -683,7 +684,7 @@ html.is-animating .a-slideOut {
 
         input#toggle:checked ~ .nav-items {
             bottom: -400px;
-        }
+        }*/
 }
 
 }
