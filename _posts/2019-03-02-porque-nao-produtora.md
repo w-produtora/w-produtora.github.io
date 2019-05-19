@@ -5,7 +5,7 @@ img-post: /img/porque-produtora-post.jpg
 layout: posts
 tipo: home
 tag: Opinião
-linkcta: 
+linkcta: https://whatsfacil.com/e678b8
 category: [artigos]
 permalink: /porque-nao-produtora/
 cta: Quer entender exatamente como funciona o nosso atendimento?
