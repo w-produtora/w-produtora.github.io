@@ -66,6 +66,16 @@ hr {
 
 /* LINKS */
 
+a {
+  color: var(--azul);
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+a:hover {
+  border-bottom: var(--bd-azul);
+}
+
 *:hover{ 
   text-decoration: none;
   transition: all 0.5s;
@@ -616,6 +626,9 @@ footer h3 {
   padding-bottom: 4rem;
 }
 
+.footer-social a {
+  color: var(--azul);
+}
 
 .fab {
   padding: 1rem;
@@ -691,5 +704,13 @@ html.is-animating .a-slideOut {
 
   .artigos-tag {
     margin-top: 0;
+  }
+
+  .copy-hero {
+    grid-template-columns: 1fr 1em 2fr 1em 1fr;
+  }
+
+  .copy-hero_meta > blockquote {
+    margin-top: 4rem;
   }
 }

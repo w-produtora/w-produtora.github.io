@@ -6,6 +6,7 @@ tag: Portfolio
 category: [portfolio, artigos]
 permalink: /michelle-vinicius/
 cta: Quer entender exatamente como funciona nosso atendimento? Faz uma pergunta pra gente!
+linkcta: https://whatsfacil.com/e678b8
 meta: |
   Um casal de uma energia tão gostosa, com uma história tão bonita, que foi bom e leve participar desse momento deles...
 ---

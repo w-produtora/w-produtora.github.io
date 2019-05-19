@@ -6,6 +6,7 @@ tag: Portfolio
 category: [portfolio, artigos]
 permalink: /gla-vinicius/
 cta: Quer entender exatamente como funciona nosso atendimento? Faz uma pergunta pra gente!
+linkcta: https://whatsfacil.com/e678b8
 meta: |
   Nem a chuva os impediria de casar na praia. Com ou sem padrinhos, mesmo que fosse sem fotos, mesmo que o cabelo caísse e o vestido molhasse, eles vieram de longe pra casar na areia.
 ---

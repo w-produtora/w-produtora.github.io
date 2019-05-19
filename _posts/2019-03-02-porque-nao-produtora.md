@@ -4,7 +4,8 @@ img: /img/porque-produtora.jpg
 img-post: /img/porque-produtora-post.jpg
 layout: posts
 tipo: home
-tag: É assim que a banda toca
+tag: Opinião
+linkcta: 
 category: [artigos]
 permalink: /porque-nao-produtora/
 cta: Quer entender exatamente como funciona o nosso atendimento?

@@ -5,6 +5,7 @@ layout: posts
 tag: Opinião
 permalink: /nao-existe-cerimonial-dia/
 cta: Quer entender exatamente como funciona nosso atendimento? Faz uma pergunta pra gente!
+linkcta: https://whatsfacil.com/e678b8
 meta: |
   Aqui vai aquele resuminho bacana. Aqui vai aquele resuminho bacana.
 
