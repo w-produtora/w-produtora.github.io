@@ -1,7 +1,6 @@
 ---
 title: Por que não uma produtora?
 img: /img/porque-produtora.jpg
-img-post: /img/porque-produtora-post.jpg
 layout: posts
 tipo: home
 tag: Opinião
