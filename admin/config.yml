@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: https://github.com/w-produtora/w-produtora.github.io
+  repo: /w-produtora/w-produtora.github.io
   accept_roles:
     - admin
     - editor
@@ -26,3 +26,4 @@ collections:
       - {label: "Categoria", name: "category", widget: "string"}
       - {label: "link", name: "permalink", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+      
