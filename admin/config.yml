@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: 
+  repo: https://github.com/w-produtora/w-produtora.github.io
   accept_roles:
     - admin
     - editor
