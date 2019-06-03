@@ -43,7 +43,7 @@ Por quê? A organização do casamento trará à tona o seu jeito e pensar e o d
 
 Faz diferença com uma boa produção? Sim!
 
-Como os preparativos do casamento serão encaminhados de forma mais suave e o projeto do casamento vai sempre seguir a planilha orçamentária estabelecida lá no início, os gastos novos não aparecem do nada. Não haverão grandes surpresas, o que por si só já diminui muito o stress. Mas, o pulo da gato mesmo está em como esse processo é conduzido e cada gasto apresentado a vocês dois.
+Como os preparativos do casamento serão encaminhados de forma mais suave e o projeto do casamento vai sempre seguir a planilha orçamentária estabelecida lá no início, os gastos novos não aparecem do nada. Não haverá grandes surpresas, o que por si só já diminui muito o stress. Mas, o pulo da gato mesmo está em como esse processo é conduzido e cada gasto apresentado a vocês dois.
 
 Ninguém vai simplesmente jogar gastos nas mãos de vocês e pular fora. Vamos conversar e negociar juntos para que as necessidades de vocês dois sejam atendidas.
 
