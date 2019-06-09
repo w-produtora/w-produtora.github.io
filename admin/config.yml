@@ -21,11 +21,11 @@ collections:
       - {label: "Título", name: "title", widget: "string"}
       - {label: "Imagem do cabeçalho", name: "img", widget: "image"}
       - {label: "Homepage", name: "tipo", widget: "boolean", default: false}
-      - {label: "Tag", name: "tag", widget: "string"}
+      - {label: "Tag", name: "tag", widget: "select", options: ["Dicas", "Opinião", "Portfolio"]}
       - {label: "Link da Call to Action", name: "linkcta", widget: "string"}
       - {label: "Call to Action", name: "cta", widget: "string"}
-      - {label: "Categoria", name: "category", widget: "select", options: ["portfolio", "artigos"]}
+      - {label: "Categoria", name: "category", widget: "select", multiple: true, options: ["portfolio", "artigos"]}
       - {label: "link", name: "permalink", widget: "string"}
-      - {label: "meta", name: "resumo", widget: "text"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Resumo", name: "meta", widget: "text"}
+      - {label: "Post", name: "body", widget: "markdown"}
       
