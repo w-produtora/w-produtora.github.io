@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: Nathália & Paulo
-img: /img/uploads/0131_-_johnny_roedel_fotografo_casamento_itajai.jpg
+img: /img/uploads/0051_-_johnny_roedel_fotografo_casamento_itajai.jpg
 tipo: true
 tag: Portfolio
 linkcta: whatsapp://send/?phone=5547996587133&text=Oi!
