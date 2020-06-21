@@ -8,6 +8,7 @@ linkcta: https://whatsfacil.com/e678b8
 cta: Quer entender exatamente como funciona nosso atendimento? Clica aqui!
 category:
   - portfolio
+  - artigos
 permalink: nic-e-alisson
 meta: |
   Dia daquele sorriso lindo da Nicolli quando chegou e viu a decoração!
