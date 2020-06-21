@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: Cristiny & Maicon
-img: /img/uploads/img_0022.jpg
+img: /img/uploads/img_4238.jpg
 tipo: true
 tag: Portfolio
 linkcta: whatsapp://send/?phone=5547996587133&text=Oi!
