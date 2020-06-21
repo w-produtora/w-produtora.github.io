@@ -1,19 +1,23 @@
 ---
+layout: posts
 title: Por que não uma produtora?
 img: /img/porque-produtora.jpg
-layout: posts
-tipo: home
+tipo: false
 tag: Opinião
 linkcta: https://whatsfacil.com/e678b8
-category: [artigos]
-permalink: /porque-nao-produtora/
 cta: Quer entender exatamente como funciona o nosso atendimento?
-meta: |
+category:
+  - artigos
+permalink: /porque-nao-produtora/
+meta: >
   Por que não uma produtora?
+
 
   E, afinal, quanto custa a produção de um casamento?
 
+
   Essa é a pergunta mais comum, mas eu acho que essa pergunta está errada. A pergunta certa deveria ser: Quanto custa não ter uma produtora no seu casamento?
+
 
   Porque é aqui que realmente faz diferença. E essa é a pergunta que realmente vale a pena responder.
 ---
