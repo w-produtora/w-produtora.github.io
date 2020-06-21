@@ -8,6 +8,7 @@ linkcta: whatsapp://send/?phone=5547996587133&text=Oi!
 cta: Quer saber exatamente como funciona nosso atendimento? Clica aqui!
 category:
   - portfolio
+  - artigos
 permalink: cris-e-maicon
 meta: Não sei se existem palavras para descrever o desafio que esse casamento
   representou dentro da W, internamente.
