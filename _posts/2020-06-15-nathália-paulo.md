@@ -8,6 +8,7 @@ linkcta: whatsapp://send/?phone=5547996587133&text=Oi!
 cta: Quer entender exatamente como funciona nosso atendimento? Clica aqui!
 category:
   - portfolio
+  - artigos
 permalink: nath-e-paulo
 meta: Foi só começar a cerimônia que aquela ansiedade toda foi embora. Foi tudo
   como tinha que ser!
