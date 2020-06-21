@@ -14,7 +14,6 @@ meta: Não sei se existem palavras para descrever o desafio que esse casamento
 ---
 Passou e nem dá pra acreditar!
 
-\
 Que saudades!
 
 Realmente topamos tornar realidade esse casamento e foi mágico!\
