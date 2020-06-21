@@ -1,14 +1,19 @@
 ---
+layout: posts
 title: Michelle & Vinícius
 img: /img/michelle-vinicius.jpg
-layout: posts
+tipo: true
 tag: Portfolio
-category: [portfolio, artigos]
-permalink: /michelle-vinicius/
-cta: Quer entender exatamente como funciona nosso atendimento? Faz uma pergunta pra gente!
 linkcta: https://whatsfacil.com/e678b8
-meta: |
-  Um casal de uma energia tão gostosa, com uma história tão bonita, que foi bom e leve participar desse momento deles...
+cta: Quer entender exatamente como funciona nosso atendimento? Faz uma pergunta
+  pra gente!
+category:
+  - portfolio
+  - artigos
+permalink: /michelle-e-vinicius/
+meta: >
+  Um casal de uma energia tão gostosa, com uma história tão bonita, que foi bom
+  e leve participar desse momento deles...
 ---
 
 Um casamento lindo à beira da praia. Não foi só lindo pelo lugar ou pela beleza da noiva, que é linda, óbvio. Foi lindo porque o casal era de uma energia tão gostosa, com uma história tão bonita que foi bom e leve participar desse momento deles.
