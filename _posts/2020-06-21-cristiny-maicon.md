@@ -17,8 +17,7 @@ Passou e nem dá pra acreditar!
 
 Que saudades!
 
-Realmente topamos tornar realidade esse casamento e foi mágico!\
-Conhecer vocês ao longo desse ano foi incrível e nos sentimos muito privilegiadas por termos participado do grande dia de vocês!
+Realmente topamos tornar realidade esse casamento e foi mágico! Conhecer vocês ao longo desse ano foi incrível e nos sentimos muito privilegiadas por termos participado do grande dia de vocês!
 
 Não sei se existem palavras para descrever o desafio que esse casamento representou dentro da W, internamente. Cris e Maicon nos ensinaram muito e nos levaram a superar limites que, talvez, estivéssemos bem confortáveis em não estender. Somos muito gratas a esse casal maravilhoso!
 
