@@ -2,7 +2,7 @@
 layout: posts
 title: Por que não uma produtora?
 img: /img/porque-produtora.jpg
-tipo: true
+tipo: false
 tag: Opinião
 linkcta: https://whatsfacil.com/e678b8
 cta: Quer entender exatamente como funciona o nosso atendimento?
