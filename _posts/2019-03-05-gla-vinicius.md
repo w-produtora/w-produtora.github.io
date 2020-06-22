@@ -1,14 +1,20 @@
 ---
+layout: posts
 title: Glacielly & Vinícius
 img: /img/gla-vinicius.jpg
-layout: posts
+tipo: true
 tag: Portfolio
-category: [portfolio, artigos]
-permalink: /gla-vinicius/
-cta: Quer entender exatamente como funciona nosso atendimento? Faz uma pergunta pra gente!
 linkcta: https://whatsfacil.com/e678b8
-meta: |
-  Nem a chuva os impediria de casar na praia. Com ou sem padrinhos, mesmo que fosse sem fotos, mesmo que o cabelo caísse e o vestido molhasse, eles vieram de longe pra casar na areia.
+cta: Quer entender exatamente como funciona nosso atendimento? Faz uma pergunta
+  pra gente!
+category:
+  - portfolio
+  - artigos
+permalink: /gla-e-vinicius/
+meta: >
+  Nem a chuva os impediria de casar na praia. Com ou sem padrinhos, mesmo que
+  fosse sem fotos, mesmo que o cabelo caísse e o vestido molhasse, eles vieram
+  de longe pra casar na areia.
 ---
 
 Ainda lembro claramente da indecisão de onde montar sua cerimônia por causa da chuva que ia e vinha. Já estava tudo encaminhado na área coberta, mas confesso que não estava satisfeita. Quando a Glacielly disse que era pra montar na praia, mesmo sob chuva, foi um alívio!
