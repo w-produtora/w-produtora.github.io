@@ -2,7 +2,7 @@
 layout: posts
 title: Nicolli & Alisson
 img: /img/uploads/photo-2019-12-14-20-30-28.jpg
-tipo: true
+tipo: false
 tag: Portfolio
 linkcta: https://whatsfacil.com/e678b8
 cta: Quer entender exatamente como funciona nosso atendimento? Clica aqui!

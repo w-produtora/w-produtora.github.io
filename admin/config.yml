@@ -20,7 +20,7 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "posts"}
       - {label: "Título", name: "title", widget: "string"}
       - {label: "Imagem do cabeçalho", name: "img", widget: "image"}
-      - {label: "Homepage", name: "tipo", widget: "boolean", default: false}
+      - {label: "Homepage", name: "tipo", widget: "boolean", required: false}
       - {label: "Tag", name: "tag", widget: "select", options: ["Dicas", "Opinião", "Portfolio"]}
       - {label: "Link da Call to Action", name: "linkcta", widget: "string"}
       - {label: "Call to Action", name: "cta", widget: "string"}
@@ -28,4 +28,16 @@ collections:
       - {label: "link", name: "permalink", widget: "string"}
       - {label: "Resumo", name: "meta", widget: "text"}
       - {label: "Post", name: "body", widget: "markdown"}
+  - name: "material" # Used in routes, e.g., /admin/collections/blog
+    label: "Materiais de Apoio" # Used in the UI
+    folder: "_material" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
+      - {label: "Título", name: "title", widget: "string"}
+      - {label: "Imagem do cabeçalho", name: "img", widget: "image"}
+      - {label: "Link da Call to Action", name: "linkcta", widget: "string"}
+      - {label: "Call to Action", name: "cta", widget: "string"}
+      - {label: "Conteúdo", name: "body", widget: "markdown"}
       

@@ -38,9 +38,14 @@ h1, h2, h3, h4 {
 }
 
 p {
+  font-family: 'Archivo', sans-serif;
   line-height: 1.4;
   margin-bottom: 1em;
   color: var(--cinza-escuro);
+}
+
+.artigos-texto_info > p {
+  font-family: 'Archivo Narrow', sans-serif;
 }
 
 li {
@@ -168,6 +173,11 @@ header {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 1em;
+}
+
+.artigos-tag {
+  text-transform: uppercase;
+  font-family: 'Archivo Narrow', sans-serif;
 }
 
 .principal {
