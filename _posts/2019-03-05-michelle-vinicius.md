@@ -2,7 +2,7 @@
 layout: posts
 title: Michelle & Vinícius
 img: /img/michelle-vinicius.jpg
-tipo: true
+tipo: false
 tag: Portfolio
 linkcta: https://whatsfacil.com/e678b8
 cta: Quer entender exatamente como funciona nosso atendimento? Faz uma pergunta
