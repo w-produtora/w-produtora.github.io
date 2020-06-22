@@ -2,7 +2,7 @@
 layout: posts
 title: Cristiny & Maicon
 img: /img/uploads/img_4238.jpg
-tipo: true
+tipo: false
 tag: Portfolio
 linkcta: whatsapp://send/?phone=5547996587133&text=Oi!
 cta: Quer saber exatamente como funciona nosso atendimento? Clica aqui!
