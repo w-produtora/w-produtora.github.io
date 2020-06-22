@@ -6,7 +6,7 @@ type: index
 
 <div class="principal">
   {% for post in site.posts %}
-  {% if post.tipo == 'home' %}
+  {% if post.tipo == true %}
   <div class="principal-explicacao">
     <h2><a href="{{ post.url }}">{{ post. title }}</a></h2>
     {{ post.meta | markdownify }}

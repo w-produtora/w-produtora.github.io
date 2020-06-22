@@ -1,0 +1,23 @@
+---
+title: Material de Apoio
+layout: default
+permalink: /ebook/
+---
+
+{% for materials in site.material %}
+
+<div class="apoio">
+	<div class="apoio-info">
+		<h1>{{ materials.title }}</h1>
+		
+		{{ materials.content }}
+
+		<p><a class="button" href="{{ materials.linkcta }}">{{ materials.cta }}</a></p>
+	</div>
+
+	<div class="apoio-img">
+		<img src="{{ materials.img }}" alt="">
+	</div>
+</div>
+
+{% endfor %}
