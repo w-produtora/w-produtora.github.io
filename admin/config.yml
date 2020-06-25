@@ -40,4 +40,15 @@ collections:
       - {label: "Link da Call to Action", name: "linkcta", widget: "string"}
       - {label: "Call to Action", name: "cta", widget: "string"}
       - {label: "Conteúdo", name: "body", widget: "markdown"}
+  - name: "casamento-sagrado"
+    label: "Casamento é Sagrado"
+    folder: "casamento-sagrado"
+    create: false
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
+      - {label: "Título", name: "title", widget: "string"}
+      - {label: "Imagem do cabeçalho", name: "img", widget: "hidden"}
+      - {label: "Link da Call to Action", name: "linkcta", widget: "string"}
+      - {label: "Call to Action", name: "cta", widget: "string"}
+      - {label: "Conteúdo", name: "body", widget: "markdown"}
       
