@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Vestido de noiva: Funcionou! Qual vestido fica bom em mim?"
+title: "Vestido de noiva: Qual vestido fica bom em mim?"
 img: /img/ebook-dress-code.jpg
 linkcta: https://mailchi.mp/06d5302cd8a6/vestidodenoiva
 cta: Quero saber qual vestido serve pra mim!
