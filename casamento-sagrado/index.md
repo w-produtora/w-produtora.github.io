@@ -1,10 +1,11 @@
 ---
-title: Casamento é sagrado!
 layout: page
+title: Casamento é sagrado!
 owner: Flavinha Winckler & Stheffany Nering
 slogan: Casamento é sagrado e o tratamos como tal.
-cta: Quer saber exatamente como funciona o nosso atendimento?
 linkcta: https://whatsfacil.com/e678b8
+cta: Quer saber conversar para saber se o nosso atendimento faz sentido para
+  você? Clica aqui!
 permalink: /casamento-sagrado/
 ---
 	
