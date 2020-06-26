@@ -26,7 +26,7 @@ Vou abordar os dois principais argumentos contrários ao uso de smartphones e po
 
 **Argumento nº1:** *As pessoas estão mais interessadas na foto do que no momento real, os likes do Instagram são mais importantes do que estar no casamento*.
 
-Me recuso a acreditar nessa superficialidade. Eis o que ***eu*** vejo quando percebo convidados tirando fotos: Eu vejo a Bruna no casamento do irmão Vinícius com a Glacielly. Você pode ver uma madrinha sem noção saindo do lugar pra tirar foto na hora da noiva entrando. OU você pode ver uma mulher registrando a emoção de ver seu irmão casar. Eu vejo a 2ª opção.
+Me recuso a acreditar nessa superficialidade. Eis o que ***eu*** vejo quando percebo convidados tirando fotos: Eu vejo a Bruna no casamento do irmão Vinícius com a Glacielly. Você pode ver uma madrinha sem noção saindo do lugar pra tirar foto na hora da noiva entrando. OU você pode ver uma mulher registrando a emoção de ver seu irmão casar. Eu vejo a 2ª opção e você?
 
 ![](/img/uploads/casamento-glaci-e-vini-1330.jpg)
 
