@@ -2,6 +2,7 @@
 layout: posts
 title: Michelle & Vinícius
 img: /img/michelle-vinicius.jpg
+author: Stheffany Nering
 tipo: false
 tag: Portfolio
 linkcta: https://whatsfacil.com/e678b8

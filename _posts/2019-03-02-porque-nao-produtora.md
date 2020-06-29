@@ -2,6 +2,7 @@
 layout: posts
 title: Por que não uma produtora?
 img: /img/porque-produtora.jpg
+author: Stheffany Nering
 tipo: false
 tag: Opinião
 linkcta: https://whatsfacil.com/e678b8

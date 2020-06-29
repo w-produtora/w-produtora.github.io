@@ -20,6 +20,7 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "posts"}
       - {label: "Título", name: "title", widget: "string"}
       - {label: "Imagem do cabeçalho", name: "img", widget: "image"}
+      - {label: "Autor", name: "author", widget: "string"}
       - {label: "Homepage", name: "tipo", widget: "boolean", required: false}
       - {label: "Tag", name: "tag", widget: "select", options: ["Dicas", "Opinião", "Portfolio"]}
       - {label: "Link da Call to Action", name: "linkcta", widget: "string"}

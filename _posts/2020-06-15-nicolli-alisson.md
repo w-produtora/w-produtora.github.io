@@ -2,6 +2,7 @@
 layout: posts
 title: Nicolli & Alisson
 img: /img/uploads/photo-2019-12-14-20-30-28.jpg
+author: Stheffany Nering
 tipo: false
 tag: Portfolio
 linkcta: https://whatsfacil.com/e678b8

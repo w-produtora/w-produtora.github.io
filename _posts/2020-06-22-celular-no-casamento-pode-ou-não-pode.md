@@ -2,6 +2,7 @@
 layout: posts
 title: Celular no casamento. Pode ou não pode?
 img: /img/uploads/celular-pode-ou-não-pode-.jpg
+author: Stheffany Nering
 tipo: false
 tag: Opinião
 linkcta: https://whatsfacil.com/e678b8

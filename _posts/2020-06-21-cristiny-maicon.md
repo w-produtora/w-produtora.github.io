@@ -2,6 +2,7 @@
 layout: posts
 title: Cristiny & Maicon
 img: /img/uploads/img_4238.jpg
+author: Stheffany Nering
 tipo: false
 tag: Portfolio
 linkcta: whatsapp://send/?phone=5547996587133&text=Oi!

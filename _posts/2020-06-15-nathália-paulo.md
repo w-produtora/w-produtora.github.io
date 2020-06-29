@@ -2,6 +2,7 @@
 layout: posts
 title: Nathália & Paulo
 img: /img/uploads/0051_-_johnny_roedel_fotografo_casamento_itajai.jpg
+author: Stheffany Nering
 tipo: false
 tag: Portfolio
 linkcta: whatsapp://send/?phone=5547996587133&text=Oi!
